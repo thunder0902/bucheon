@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sub1</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/sub1.css">
+    <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Jua|Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Jua|Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <script src="./js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <header>
+        <h1><a href="./index.html"><img src="./img/logoz.gif" alt="logo"></a></h1>
+        <ul>
+            <li><a href="#">전자민원</a>
+                <ul>
+                    <li><a href="#">민원신청</a></li>
+                    <li><a href="#">여권민원</a></li>
+                    <li><a href="#">민원 서비스</a></li>
+                </ul>
+            </li>
+            <li><a href="#">시민참여</a>
+                <ul>
+                    <li><a href="#">시민제안</a></li>
+                    <li><a href="#">정책토론</a></li>
+                    <li><a href="#">적극행정</a></li>
+                </ul>
+
+            </li>
+            <li><a href="#">행정정보</a>
+                <ul>
+                    <li><a href="#">주요시책</a></li>
+                    <li><a href="#">주요사업추진</a></li>
+                    <li><a href="#">행정서비스헌장</a></li>
+                </ul>
+            </li>
+            <li><a href="#">부천안내</a>
+                <ul>
+                    <li><a href="#">열린시장실</a></li>
+                    <li><a href="#">부천시행정구역</a></li>
+                    <li><a href="#">부천역사관</a></li>
+                </ul>
+
+            </li>
+            <li><a href="#">부서안내</a>
+                <ul>
+                    <li><a href="#">365안내센터</a></li>
+                    <li><a href="#">홍보담당관</a></li>
+                    <li><a href="#">감사담당관</a></li>
+                </ul>
+            
+            </li>
+        </ul>
+   
+            <ul class="login">
+                <li><a href="./sub1.html">로그인</a> </li>
+                <li><a href="./sub3.html">회원가입</a></li>
+            </ul>
+            
+    </header>
+    
+    <script>
+        $(function(){
+             $('input').focusin(function(){
+                 $(this).attr('placeholder', "").css({'border':'1px solid skyblue'});
+             })
+             $('input').focusout(function(){
+                 $(this).attr('placeholder', "").css({'border':'1px solid skyblue'});
+             })
+        })
+
+    </script>
+    <section>
+        <div class="box1">
+            <div class="info">
+                <h4>회원 서비스</h4>
+                <ul>
+                    <li><a href="./sub1.html">로그인</a></li>
+                    <li><a href="./sub3.html">회원가입</a></li>
+                    <li><a href="#">아이디/비밀번호 찾기</a></li>
+                </ul>
+                
+            </div>
+            <div class="info2">
+                <ul>
+                    <li><a href="#">마이페이지</a></li>
+                    <li><a href="#">민원신청</a></li>
+                    <li><a href="#">서식자료실</a></li>
+                    <li><a href="#">오시는길</a></li>
+                    <li><a href="#">온라인도우미</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="box2">
+           <div class="info3">
+               <div class="loginBox">
+                   
+                   <form action="#">
+                   <h3>로그인</h3>
+                   <label for="login" class="labelid">로그인</label>
+                   <input type="text" class="loginid"  placeholder="아이디를 입력해주세요"><br><br>
+                   <label for="pw" class="labelpw">비밀번호</label>
+                   <input type="text" class="loginpw" placeholder="비밀번호를 입력해주세요">
+                   
+                   <div class="check">
+                        <input type="checkbox" >
+                        <label for="idchk" class="idchk">아이디 저장</label>
+                        <input type="checkbox" ><label for="" class="pwchk"> 비밀번호 저장</label> 
+                   </div>
+                   <span>아이디 비밀번호를 잊으셨나요? <a href="#">ID/PW 찾기</a></span>
+                    <div class="btn">
+                        <span><a href="./sub3.html">회원가입</a></span>
+                        <input type="submit" id="loginButton" value="로그인">
+                   </div>
+                   </form>
+               </div>
+           </div>
+           <div class="box3">
+                <div class="info4">
+                <h3>"유네스코 창의도시 부천에 오신 것을 환영합니다"
+                </h3>
+                <p>하나의 아이디로 부천시의 다양한 서비스를 이용하세요<br>
+부천시 통합회원은 부천시의 시정 정보와 <br> 부천시에서 운영하는 서비스를
+하나의 아이디로 간편하게 이용할 수 있습니다</p>
+                </div>
+               
+           </div>
+            
+            
+        </div>
+    
+
+        
+
+    </section>
+        <footer>
+        <img src="./img/logoz.gif" alt="logo">
+        <ul class="footer1">
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">이메일수집거부정책</a></li>
+            <li><a href="#">마일리지정책</a></li>
+            <li><a href="#">저작권정책</a></li>
+            <li><a href="#">마일리지정책</a></li>
+            <li><a href="#">홈페이지의견접수</a></li>
+            <li><a href="#">찾아오시는 길</a></li>
+            <li><a href="#">뷰어다운로드</a></li>
+        </ul>
+        <ul class="footer2">
+            <li>[14547] 경기도 부천시 길주로 210(중동) <br>
+            Copyright ©2017 BUCHEON CITY All rights reserved.</li>
+            <li>부천시 365 콜센터</li>
+            <li>032-320-3000 <br>평일 08시~19시 | 주말 09시~18시</li>
+        </ul>
+    </footer>
+    </div>    
+</body>
+</html>

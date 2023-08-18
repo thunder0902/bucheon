@@ -1,0 +1,72 @@
+#wrapInner, header, section, footer{margin:auto;}
+#wrapOuter{width:100%;}
+#wrapOuter>.header{width:100%; position: absolute; z-index: 9;
+background-color: #ababab; top:107px; height: 125px; background:linear-gradient(-30deg, #ababab 10%, #ededed 10%);
+background-size: 10px 10px;
+border-top:1px solid #ababab;
+border-bottom: 1px dotted #999999;
+}
+#wrapInner{width:930px; position: relative; z-index: 10;}
+
+
+/*헤더 디자인*/
+header{ margin-top: 20px; width:100%; height:50px; padding-top:15px;  background-color: white; margin-bottom: 20px; position:relative;}
+h1{margin-left:0px; float:left; margin-right:40px;}
+
+/*블루바*/
+.blueBar{width:100%; border-top:3px solid #006FBC;}
+
+
+
+
+/*헤더 네비 투뎁스*/
+header>ul{margin-right:30px;}
+header>ul>li{float:right; width:12%; padding-right:5px; margin-top:15px; text-align: center; font-size:14px; font-weight: bold; color:black; font-family: sans-serif; }
+header>ul>li:after{content:''; display: block; clear: both;}
+
+
+
+/*섹션*/
+section{width:100%;/* padding-top:20px;*/}
+section:after{content: ''; clear:both; display: block;}
+
+/*섹션 헤더*/
+.box1{width:100%; height: 125px;}
+.box1 h2{text-align:center; font-family:sans-serif; line-height: 100px; color:dimgray; font-family: 'Jua', sans-serif;
+font-family: 'Noto Sans KR', sans-serif; margin-top: 20px;}
+p{font-size:0.9em;}
+/*회원약관*/
+
+
+
+.box2 i{color:gray;}
+.box2{width:100%; padding-top:50px;}
+.box2 h3{width:100%; margin-left:5%; margin-top: 20px;}
+.box2 textarea{width: 90%; height:300px; margin-left:5%; margin-bottom: 20px; background-color:azure;}
+.box2 h4{margin-left:5%;}
+.box2 p{margin-left:5%;}
+.box2 button{ width: 10%; padding:20px; margin-left:400px; background-color: gainsboro;}
+.box2 p{margin-bottom:20px;}
+
+textarea{border-radius: 2px;}
+
+.join{width:100px; height: 100px; margin:auto; position:relative;}
+.join img:hover{transform: rotate(-30deg);}
+.join span{margin-left:30px; font-size:0.9em; font-family: 'Jua', sans-serif;}
+.join span{color:dimgray;}
+
+
+
+
+
+/*footer 디자인*/
+footer{width:100%; height:200px;padding-top:30px;}
+footer:after{content: ''; clear: both; display:block;}
+footer img{float:left;}
+.footer1 li{float:right; padding-right:12px;}
+.footer1 li:after{content: ''; display:block; clear:both;}
+.footer1 a{font-size:14px; font-family: 'Jua', sans-serif; }
+.footer1 li:after{content: ''; display:block; clear:both;}
+.footer2 li{font-size:15px; float: left; margin-top:60px; font-size:12px; font-family: 'Jua', sans-serif; color:gray;
+margin-right:20px;}
+.footer2 li:nth-child(2){font-size:20px; color:skyblue;}

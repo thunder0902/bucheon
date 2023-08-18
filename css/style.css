@@ -1,0 +1,95 @@
+#wrap, header, section, footer{margin:auto;}
+
+#wrap{width:930px;}
+/*헤더 디자인*/
+header{ margin-top: 20px; width:100%; height:70px; padding-top:15px;  background-color: white;}
+h1{margin-left:0px; float:left; margin-right:40px;}
+
+
+/*헤더 네비 투뎁스*/
+header>ul{margin-right:30px;}
+header>ul>li{float:left; width:12%; padding-right:5px; margin-top:15px; text-align: center; font-size:20px; font-weight: bold; color:black; font-family: 'Jua', sans-serif; }
+header>ul>li>ul>li{display:none; font-family: sans-serif; font-size:14px; padding-top:10px; background-color:white;}
+header>ul>li:hover>ul>li{display:block;}
+header a{display: block; color:gray;}
+.login li a{font-size:12px; font-family: sans-serif; font-weight: bold;}
+.login li{ width:6%;}
+
+/*섹션*/
+section{width:100%; margin-top:100px;}
+
+
+/*섹션 디자인*/
+
+/*메인 베너*/
+.box1{/*background-image: url(../img/slide.jpg);*/; width:100%; height:400px; overflow: hidden;}
+.container{width:100%;}
+.container img{width:100%;}
+.box1{font-size:0em;}
+.box1:after{content: ''; display:block; clear:both;}
+
+
+
+/*이미지 슬라이스*/
+
+
+/*탭 메뉴*/
+.box2{width:100%; background-color: white; position:relative;}
+.box2{margin-bottom:20px;}
+.box2:after{content: ''; display:block; clear:both;}
+.tap{width:40%; float:left; box-sizing: border-box;}
+.tapImage img{position: absolute; left:0px; top:50px;}
+.tap ul li{width:33.333333%; background-color: white;
+float:left ; text-align: center; height:50px; line-height: 50px;border:1px solid black; box-sizing: border-box; font-family: 'Jua', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;}
+/*.tap>ul>li>a{ display: block; color:black;}*/
+.tap ul li:nth-child(1){border-right:none;}
+.tap ul li:nth-child(2){border-right:none;}
+.tap ul li{cursor:pointer;}
+.tap ul li:hover{background-color:#f16175;}
+
+/*게시판*/
+.tableMenu{width:100%; box-sizing: border-box;}
+.tableMenu ul li{width:15%; float:left; text-align: center; height:50px; line-height: 50px; background-color: white;
+border:1px solid black; box-sizing: border-box; border-right:none; font-family: 'Jua', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;}
+.tableMenu ul>li:nth-child(1){border-left:none;}
+.tableMenu ul>li:first-child{background-color:#f16175;}
+.tableMenu ul>li:nth-child(4){border-right:1px solid black;}
+.tableMenu>ul>li>a{display:block; color:black;}
+.tableMenu ul>li:hover{background-color:#f16175;}
+
+.center{width:55%; float:right; box-sizing: border-box;}
+table{border:px solid black; width:100%; border-top:none; height:300px;}
+td{height:40px; line-height: 40px; font-size:14px; background-color:white;/* #f9efed*/ font-family: 'Jua', sans-serif;
+font-family: 'Noto Sans KR', sans-serif; border-bottom:1px solid silver;}
+
+/*box3 디자인*/
+
+.box3{width:100%; height: 180px; background-color:#fceef2; padding-top:30px; margin-bottom:20px;}
+.box3 div{height:120px; width:120px; border-radius: 120px; background-color: white; float:left; margin-left:56px; margin-right:56px; border:10px solid lightpink; box-sizing: border-box; position:relative;}
+.box3 div a{position:absolute; top:40px; left:18px;
+font-family: 'Jua', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Gamja Flower', cursive;
+ font-size:20px;}
+
+/*box4 디자인*/
+
+.box4{width:100%; height:700px; position:relative;}
+.lastImg{width:50%; height:400px; float: left; margin-bottom: 50px;}
+.lastImg2{width:50%; height:400px; background-color:white; box-sizing: border-box; border: 0.5px solid white;;}
+.lastImg2{background-image: url(../img/bucheon11.jpg); position:absolute; left:465px; font-size:2.5em; font-family: 'Jua', sans-serif; color:white;  }
+.lastImg2 p{text-align: center;}
+.lastImg4{margin-left:10px;}
+/*footer 디자인*/
+
+footer{width:100%; height:200px;padding-top:30px;}
+footer img{float:left;}
+.footer1 li{float:right; padding-right:12px;}
+.footer1 li:after{content: ''; display:block; clear:both;}
+.footer1 a{font-size:14px; font-family: 'Jua', sans-serif; }
+.footer1 li:after{content: ''; display:block; clear:both;}
+.footer2 li{font-size:15px; float: left; margin-top:60px; font-size:12px; font-family: 'Jua', sans-serif; color:gray;
+margin-right:20px;}
+.footer2 li:nth-child(2){font-size:20px; color:skyblue;}

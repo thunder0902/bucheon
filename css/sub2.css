@@ -1,0 +1,60 @@
+#wrap, header, section, footer{margin:auto;}
+
+#wrap{width:930px;}
+/*헤더 디자인*/
+header{ margin-top: 20px; width:100%; height:70px; padding-top:15px;  background-color: white; margin-bottom: 20px; position:relative;}
+h1{margin-left:0px; float:left; margin-right:40px;}
+
+
+/*헤더 네비 투뎁스*/
+header>ul{margin-right:30px;}
+header>ul>li{float:left; width:12%; padding-right:5px; margin-top:15px; text-align: center; font-size:20px; font-weight: bold; color:black; font-family: 'Jua', sans-serif; }
+header>ul>li>ul>li{display:none; font-family: sans-serif; font-size:14px; padding-top:10px; background-color:white; text-align: center; z-index: 10;  position:relative;}
+header>ul>li:hover>ul>li{display:block; }
+
+header>ul>li:after{content:''; display: block; clear: both;}
+
+
+.login li a{font-size:12px; font-family: sans-serif; font-weight: bold;}
+.login li{ width:6%;}
+
+/*섹션*/
+section{width:100%;/* padding-top:20px;*/ }
+/*섹션헤더*/
+.sectionHeader{width:100%; height:400px; background-color: skyblue;}
+
+/*베너 디자인 1*/
+.mainBanner{width:100%; height:200px; background-image: url(../img/title.jpg);}
+.box1{width:100%; height:460px;}
+.box1 div{float:left;}
+.box1 div img{ margin-left:17%;}
+.box1 div h3{ margin-left:30%;}
+.mainBanner2{width:30%; height:420px}
+.mainBanner2 img{width:98%; height:410px}
+.mainBanner2 h3{text-align: center; font-family: 'Jua', sans-serif; color:skyblue;}
+.mainBanner3{width:30%; height:420px; }
+.mainBanner3 img{width:98%; height:410px}
+.mainBanner3 h3{text-align: center; font-family: 'Jua', sans-serif; color:skyblue;}
+.mainBanner4{width:30%; height:420px; }
+.mainBanner4 img{width:98%; height:410px}
+.mainBanner4 h3{text-align: center; font-family: 'Jua', sans-serif; color:skyblue;}
+
+/*아코디언 디자인*/
+.box2{width:100%; height: 300px; position: relative;}
+.bn2{width:100%; height:150px; background-color: beige; background-image: url(../img/dragon.jpg); position:absolute;}
+.bn2 button{position: absolute; right:465px; bottom:10px; background-color: white; color: deepskyblue;}
+.bn3{width:100%; height:150px; position:absolute; top:150px;}
+
+/*섹션의 헤더*/
+
+/*footer 디자인*/
+footer{width:100%; height:200px;padding-top:30px;}
+footer:after{content: ''; clear: both; display:block;}
+footer img{float:left;}
+.footer1 li{float:right; padding-right:12px;}
+.footer1 li:after{content: ''; display:block; clear:both;}
+.footer1 a{font-size:14px; font-family: 'Jua', sans-serif; }
+.footer1 li:after{content: ''; display:block; clear:both;}
+.footer2 li{font-size:15px; float: left; margin-top:60px; font-size:12px; font-family: 'Jua', sans-serif; color:gray;
+margin-right:20px;}
+.footer2 li:nth-child(2){font-size:20px; color:skyblue;}

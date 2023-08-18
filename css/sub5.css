@@ -1,0 +1,72 @@
+#wrapInner, header, section, footer{margin:auto;}
+#wrapOuter{width:100%;}
+#wrapOuter>.header{width:100%; position: absolute; z-index: 9;
+background-color: #ababab; top:107px; height: 125px; background:linear-gradient(-30deg, #ababab 10%, #ededed 10%);
+background-size: 10px 10px;
+border-top:1px solid #ababab;
+border-bottom: 1px dotted #999999;
+}
+#wrapInner{width:930px; position: relative; z-index: 10;}
+
+
+/*헤더 디자인*/
+header{ margin-top: 20px; width:100%; height:50px; padding-top:15px;  background-color: white; margin-bottom: 20px; position:relative;}
+h1{margin-left:0px; float:left; margin-right:40px;}
+
+/*블루바*/
+.blueBar{width:100%; border-top:3px solid #006FBC;}
+
+
+
+
+/*헤더 네비 투뎁스*/
+header>ul{margin-right:30px;}
+header>ul>li{float:right; width:12%; padding-right:5px; margin-top:15px; text-align: center; font-size:14px; font-weight: bold; color:black; font-family: sans-serif; }
+header>ul>li:after{content:''; display: block; clear: both;}
+
+
+
+/*섹션*/
+section{width:100%;/* padding-top:20px;*/}
+section:after{content: ''; clear:both; display: block;}
+
+/*섹션 헤더*/
+.box1{width:100%; height:125px;}
+.box1 h2{text-align:center; font-family:sans-serif; line-height: 100px; color:dimgray; font-family: 'Jua', sans-serif;
+font-family: 'Noto Sans KR', sans-serif; margin-top: 20px;}
+
+
+
+/*.box1{margin-bottom:50px;}*/
+
+
+/*박스2*/
+.box2{width:100%; clear: both; padding:60px 0; background-color: white;
+margin-bottom: 60px; margin-top:10px;}
+.box2 table{width:60%; margin:auto;}
+.box2 td:nth-child(1){width:40%; background-color: azure; text-indent: 2em;}
+.box2 td:nth-child(2) input[type="text"]{width:300px; height: 30px;}
+.box2 td:nth-child(2) select{width:60px; height: 39px; float:left; margin-right:10px;}
+.box2 td:nth-child(2) select+input[type="text"]{width:230px; height: 35px; float:left;}
+
+.box2 span{margin-left:40px; font-size:14px;}
+.box2 span:nth-child(1){margin-left:30px;}
+.box2 input[type="submit"] {text-align: center; padding:10px; background-color: white; color:black; border: 1px solid #ababab; font-size:16px;}
+
+.box2 tr:nth-child(5), .box2 tr:nth-child(7){height: 45px; background-color: transparent;}
+.box2 tr:nth-child(9){height: 50px;}
+.box2 tr:nth-child(8) td{background-color: transparent;}
+.box2 tr:nth-child(9) td{background-color: transparent;}
+.box2 tr:nth-child(5) td:nth-child(2){text-indent: 1em;}
+
+/*footer 디자인*/
+footer{width:100%; height:200px;padding-top:30px;}
+footer:after{content: ''; clear: both; display:block;}
+footer img{float:left;}
+.footer1 li{float:right; padding-right:12px;}
+.footer1 li:after{content: ''; display:block; clear:both;}
+.footer1 a{font-size:14px; font-family: 'Jua', sans-serif; }
+.footer1 li:after{content: ''; display:block; clear:both;}
+.footer2 li{font-size:15px; float: left; margin-top:60px; font-size:12px; font-family: 'Jua', sans-serif; color:gray;
+margin-right:20px;}
+.footer2 li:nth-child(2){font-size:20px; color:skyblue;}

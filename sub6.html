@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bucheon</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/sub6.css">
+    <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Jua|Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Jua|Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script>
+
+        $(function() {
+            var $btn = $('.tap li');
+
+            $btn.click(function() {
+                var n = $(this).index();
+                /*클릭된 번호 가져오기*/
+                console.log(n);
+                
+                $('.tapImage img').hide(0);
+                /*모든 이미지를 1초동안 감추기*/
+                $('.tapImage img').eq(n).show(0);
+                /*클릭된 번호에 해당하는 이미지를1초 동안 보이기*/
+
+            })
+        })
+
+    
+    </script>
+</head>
+<body>
+<div id="wrap">
+    <header>
+        <h1><a href="./index.html"><img src="./img/logoz.gif" alt="logo"></a></h1>
+        <ul>
+            <li><a href="#">이용안내</a>
+            </li>
+            <li><a href="#">비밀번호 찾기</a>
+            </li>
+            <li><a href="#">아이디 찾기</a>
+            </li>
+            <li><a href="./sub3.html">회원가입</a>
+            </li>
+        </ul>
+
+    </header>
+    <section>
+        <div class="box1">
+            <span><a href="./sub1.html">로그인하러 가기</a></span>
+            
+        </div>
+    </section>
+    <footer>
+        <img src="./img/logoz.gif" alt="logo">
+        <ul class="footer1">
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">이메일수집거부정책</a></li>
+            <li><a href="#">마일리지정책</a></li>
+            <li><a href="#">저작권정책</a></li>
+            <li><a href="#">마일리지정책</a></li>
+            <li><a href="#">홈페이지의견접수</a></li>
+            <li><a href="#">찾아오시는 길</a></li>
+            <li><a href="#">뷰어다운로드</a></li>
+        </ul>
+        <ul class="footer2">
+            <li>[14547] 경기도 부천시 길주로 210(중동) <br>
+            Copyright ©2017 BUCHEON CITY All rights reserved.</li>
+            <li>부천시 365 콜센터</li>
+            <li>032-320-3000 <br>평일 08시~19시 | 주말 09시~18시</li>
+        </ul>
+    </footer>
+</div>
+</body>
+</html>
