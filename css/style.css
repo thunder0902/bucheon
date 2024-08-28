@@ -16,7 +16,7 @@ header a{display: block; color:gray;}
 .login li{ width:6%;}
 
 /*섹션*/
-section{width:100%; margin-top:100px;}
+.section{width:100%; margin-top:100px;}
 
 
 /*섹션 디자인*/
